@@ -24,7 +24,7 @@
     }
 }
 
-/*__________LAPTOP__________*/
+/*__________LAPTOP/DESKTOP__________*/
 
 @media (min-width: 1024px) {
 
@@ -34,7 +34,7 @@
     }
 
     .accordion-input:checked + .accordion-content {
-        height: 480px;
+        height: 500px;
     }
     
     .accordion-title {
@@ -48,7 +48,7 @@
     /*_______item-hover_______*/
 
     .accordion-item:hover .accordion-content {
-        height: 480px;
+        height: 500px;
     }
 
     /*_______span-hover_______*/
