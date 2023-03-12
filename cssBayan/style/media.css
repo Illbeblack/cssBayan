@@ -23,3 +23,41 @@
         width: 50%;
     }
 }
+
+/*__________LAPTOP__________*/
+
+@media (min-width: 1024px) {
+
+    .container {
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .accordion-input:checked + .accordion-content {
+        height: 480px;
+    }
+    
+    .accordion-title {
+        font-size: 2em;
+    }
+
+    .meme-img {
+        width: 45%;
+    }
+
+    /*_______item-hover_______*/
+
+    .accordion-item:hover .accordion-content {
+        height: 480px;
+    }
+
+    /*_______span-hover_______*/
+
+    .accordion:hover .span {
+        display: block;
+    }
+
+    .accordion-item:hover .span {
+        transform: rotate(0deg);
+    }
+}
