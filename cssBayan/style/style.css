@@ -54,6 +54,14 @@ body {
     position: absolute;
 }
 
+/*__________RADIO_BUTTON__________*/
+
+.accordion-input:checked + .accordion-content {
+    height: 220px;
+}
+
+/*________________________________*/
+
 .accordion-content {
     overflow: hidden;
     height: 0px;

@@ -1,0 +1,25 @@
+/*__________TABLET__________*/
+
+@media (min-width: 768px) {
+
+    .container {
+        margin: 15px auto;
+        max-width: 80%;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
+    }
+
+    .accordion-title {
+        font-size: 1.5em;
+    }
+
+    .accordion-input:checked + .accordion-content {
+        height: 320px;
+    }
+
+    .meme-img {
+        width: 50%;
+    }
+}
