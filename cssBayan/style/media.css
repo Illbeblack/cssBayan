@@ -1,0 +1,69 @@
+/*__________TABLET__________*/
+
+@media (min-width: 768px) {
+
+    .container {
+        margin: 15px auto;
+        max-width: 80%;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
+    }
+
+    .accordion-title {
+        font-size: 1.5em;
+    }
+
+    .accordion-input:checked + .accordion-content {
+        height: 320px;
+    }
+
+    .meme-img {
+        width: 50%;
+    }
+}
+
+/*__________LAPTOP/DESKTOP__________*/
+
+@media (min-width: 1024px) {
+
+    .container {
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .accordion-input:checked + .accordion-content {
+        height: 500px;
+    }
+    
+    .accordion-title {
+        font-size: 2em;
+    }
+
+    .meme-img {
+        width: 45%;
+    }
+
+    /*_______change-title-color______*/
+
+    .accordion:hover .accordion-title {
+        color: black;
+    }
+
+    /*_______item-hover_______*/
+
+    .accordion-item:hover .accordion-content {
+        height: 500px;
+    }
+
+    /*_______span-hover_______*/
+
+    .accordion:hover .span {
+        display: block;
+    }
+
+    .accordion-item:hover .span {
+        transform: rotate(0deg);
+    }
+}
