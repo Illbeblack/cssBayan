@@ -45,6 +45,12 @@
         width: 45%;
     }
 
+    /*_______change-title-color______*/
+
+    .accordion:hover .accordion-title {
+        color: black;
+    }
+
     /*_______item-hover_______*/
 
     .accordion-item:hover .accordion-content {
